@@ -1,5 +1,5 @@
 body {
-  background-color: cadetblue;
+  background-color: lavender;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-wrap: wrap;
@@ -24,7 +24,7 @@ a:hover{
   color: yellow;
 }
 .assign {
-  background-color: burlywood;
+  background-color: hotpink;
   margin: 10px;
   padding: 10px;
   display: block;
@@ -40,5 +40,5 @@ a:hover{
 .assign img:hover{
   width: 200px;
   margin: 10px;
-  border: 2px dotted yellow;
+  border: 2px dotted white;
 }
