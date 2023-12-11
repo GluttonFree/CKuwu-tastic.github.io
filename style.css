@@ -1,40 +1,47 @@
-/* Reset some default browser styles */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-}
-
-/* Set background color to lavender */
 body {
-    background-color: lavender;
+  background-color: cadetblue;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-/* Style the main heading */
 h1 {
-    color: hotpink;
-    text-align: center;
-    padding: 20px 0;
+  color: darkslateblue;
+  text-align: center;
+  width: 100%;
+  display: block;
 }
-
-/* Style the subsections with hot pink background */
+h1:hover {
+  color: blue;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: yellow;
+}
 .assign {
-    background-color: hotpink;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: burlywood;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+  border-radius: 20px;
+  box-shadow: 8px 8px brown;
+  width: 20%;
 }
-
-/* Style the links inside subsections */
-.assign-det a {
-    color: white;
+.assign img {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid midnightblue;
 }
-
-/* Change text color to white when hovering over it */
-.assign-det a:hover {
-    color: lavender;
-}
-
-/* Add white outline to images when hovering over them */
+.assign img:hover{
+  width: 200px;
+  margin: 10px;
+  border: 2px dotted yellow;
+} to images when hovering over them */
 .assign:hover img {
     outline: 2px solid white;
 }
