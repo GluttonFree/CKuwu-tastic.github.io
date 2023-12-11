@@ -1,5 +1,5 @@
 body {
-  background-color: #B2A1FE;
+  background-color: #ff8181;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-wrap: wrap;
@@ -24,12 +24,12 @@ a:hover{
   color: yellow;
 }
 .assign {
-  background-color: #ff8181;
+  background-color: #B2A1FE;
   margin: 10px;
   padding: 10px;
   display: block;
   border-radius: 20px;
-  box-shadow: 8px 8px 0 red;
+  box-shadow: 8px 8px 0 dullpurple;
   width: 20%;
 }
 .assign img {
