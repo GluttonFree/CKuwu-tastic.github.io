@@ -1,5 +1,5 @@
 body {
-  background-color: lavender;
+  background-color: #B2A1FE;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-wrap: wrap;
@@ -24,7 +24,7 @@ a:hover{
   color: yellow;
 }
 .assign {
-  background-color: hotpink;
+  background-color: #ff8181;
   margin: 10px;
   padding: 10px;
   display: block;
