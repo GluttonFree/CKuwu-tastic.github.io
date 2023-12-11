@@ -35,6 +35,6 @@ h1 {
 }
 
 /* Add white outline to images when hovering over them */
-.assign img:hover {
+.assign:hover img {
     outline: 2px solid white;
 }
