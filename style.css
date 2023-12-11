@@ -29,7 +29,7 @@ a:hover{
   padding: 10px;
   display: block;
   border-radius: 20px;
-  box-shadow: 8px 8px 0 dullpurple;
+  box-shadow: 8px 8px 0 #4e4579;
   width: 20%;
 }
 .assign img {
